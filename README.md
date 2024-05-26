@@ -1,7 +1,7 @@
 # BBC Scraper Project
 
 ## Overview
-This project involves scraping data from the BBC using Airflow, Selenium, and Beautiful Soup. The scraped data is loaded into MongoDB for storage and analyzed with Pandas.
+This project involves scraping data from the BBC using Airflow, Selenium, and Beautiful Soup. The scraped data is analyzed with Pandas.
 
 ## Components
 1. **Airflow:** Manages workflows and schedules scraping tasks.

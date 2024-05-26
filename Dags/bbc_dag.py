@@ -332,7 +332,7 @@ with DAG('scrape-data',
          schedule_interval=timedelta(days=1),
          catchup=False) as dag:
 
-    streaming_task = PythonOperator(
+        task = PythonOperator(
         task_id='scrape_data_bbc',
         python_callable=scrape_and_save
     )
